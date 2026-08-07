@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form action="">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name"><br>
+    <label for = "email">Email:</label><br>
+    <input type="text" id="email"><br>
+    <label for="phone">Phone:</label><br>
+    <input type="text" id="phone"><br>
+    <label for="resume">Resume:</label><br>
+    <input type="file">
+
+    <label for="counter">Experience</label>
+    <input type="number" min = "0" max="50" id="counter">
+
+    <fieldset>
+        <legend>Skills:</legend>
+         <label for="html">HTML</label>
+        <input type="checkbox" id="html"> <br>
+          <label for="css">CSS</label>
+        <input type="checkbox" id="css"><br>
+          <label for="js">JavaScript</label>
+        <input type="checkbox" id="js"><br>
+    </fieldset>
+    <br><hr>
+    <label for="education">Choose Education</label>
+    <select name="education" id="education">
+        <option value="">BA</option>
+        <option value="">BCA</option>
+        <option value="">MCA</option>
+    </select>
+
+    <fieldset>
+        <legend>Availability</legend>
+        <label for="fulltime">Full Time</label>
+        <input type="radio" id="fulltime" name="avail"><br>
+        <label for="parttime">Part Time</label>
+        <input type="radio" id="parttime" name="avail">
+    
+    </fieldset>
+     <label for="textarea">Enter description </label><br>
+    <textarea name="textarea" id="textarea" cols="20" rows="10"></textarea>
+
+    </form>
+
+</body>
+</html>
