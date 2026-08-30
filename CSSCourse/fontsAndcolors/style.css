@@ -1,0 +1,18 @@
+#header1{
+    color: blue;
+    font-family: sans-serif;
+     font-size: xx-large;
+}
+#first{
+    color: aqua;
+    background: #898989;
+    font-family: cursive;
+    font-style: italic;
+    /* border-color: black;
+    border-style: solid;
+    border-radius: 5px; */
+    border: black,solid,2px;
+}
+#second{
+
+}
