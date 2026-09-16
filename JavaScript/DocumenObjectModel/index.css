@@ -7,5 +7,9 @@ p{
     border-color: red;
     border-radius: 20px;
     border-style: dotted;
-    bor
+}
+
+#mydiv{
+   border-style: solid;
+   background-color: lightblue;
 }
